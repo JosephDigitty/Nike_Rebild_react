@@ -4,7 +4,8 @@ import { Hero,
   PopularProduct,
   SpecialOffer,
   SuperQuality,
-  Subscribe, } from "./Sections/index"
+  Subscribe,
+  Services } from "./Sections/index"
 import Nav from "./Features/Nav";
 
 const App = () => {
@@ -20,6 +21,9 @@ const App = () => {
     <section className="padding-x py-10">
       <SuperQuality/>
     </section>
+    <section className="padding-x py-10">
+      <Services/>
+    </section>
     <section className="padding">
       <SpecialOffer/> 
     </section>
@@ -29,9 +33,7 @@ const App = () => {
     <section className="padding-x sm:py-32 p-16 w-full">
       <Subscribe/>
     </section>
-    <section className="padding-x bg-black padding-x padding-t pb-8">
-      <SpecialOffer/> 
-    </section>
+  
     <section className="padding-x bg-black padding-x padding-t pb-8">
       <Footer/> 
     </section>
